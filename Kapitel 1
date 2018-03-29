@@ -1,0 +1,43 @@
+
+1.2 Vorteile von Node.js
+
+Die Entwicklungsgeschichte von Node.js ist eng mit der des Internet verbunden.
+
+Da der Kern von JavaScript durch ECMAScript standardisiert ist, ist JavaScript eine verlässliche Basis für umfangreiche Applikationen.
+Da  um die Ausführung von JavaScript im Browser eine große Konkurrenz herrschte, wird JavaScript inzwischen sehr schnell interpretiert
+
+
+
+1.3 Einsatzgebiete von Node.js
+
+Rahmendaten:
+
+- Reines JavaScript: und standardisierte, gut dokumentierte Schnittstellen für den Zugriff auf Systemressourcenstehen zur Verfügung.
+- Optimierte Engine: Da Node.js auf der JavaScript-Engine V8 vin Google aufbaut, lässt sich von ihrer stetigen Weiterentwicklung profitieren.
+- Nonblocking-IO: Alles, was die Plattform nicht direkt erledigen muss, wird an das Betriebssystem oder andere Applikationen ausgelagert.
+  Damit hat sie die Möglichkeit, auf weitere Anfragen zu reagieren --> Operationen die nicht in Node.js stattfinden, blockierren die ausführung nicht.
+
+
+
+1.4.2 Zugriff auf Eigenschaften
+
+Das Objektmodell von JavaScript basiert auf Prototypen, nicht auf Klassen. Sie sind dynamisch, Eigenschaften und Methoden können zu Laufzeit
+hinzugefügt und entfernt werden.
+
+Der Zugriff auf Eigenschaften und Methoden muss in JavaScript schnell erfolgen, da fast ausschließlich mit Ihnen operiert wird.
+Auf Eigenschaften wird sehr oft zugegriffen. Methoden sind in JavaScript ebenfalls Eigenschaften von Objekten, die mit einer
+Funktion hinterlegt sind.
+
+
+
+Prototypen in JavaScript
+
+- Ein Prototyp ist ein Objekt, von dem ein anderes Objekt seine Eigenschaften erbt.
+- Jedes Objekt hat eine Eigenschaft prototype und damit einen Prototyp.
+- Objekte werden mittels Object.create() oder einer Konstruktormethode erzeugt. In diesem Zuge wird ein Objekt ertsellt und
+  der Prototyp zugewiesen.
+- Prototypen können zur Laufzeit der Applikation modifiziert werden.
+- Durch den Einsatz von Prototypen lässt sich in JavaScript eine Vererbungshierarchie aufbauen.
+
+
+Hidden Classes
